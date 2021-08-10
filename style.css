@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  margin: 5px 0;
+  background-color: burlywood;
+  font-size: 30px;
+  color: azure;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: cadetblue;
+  font-size: 30px;
+  color: azure;
+}
+
+button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transform: scale();
+  transition: 0.7s;
+}
+
+button.show {
+  bottom: 20px;
+  right: 20px;
+  transform: scale(2);
+}
